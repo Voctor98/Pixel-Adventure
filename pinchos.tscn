@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://dxo3l300pbnkt"]
+
+[ext_resource type="Script" path="res://pinchos.gd" id="1_13msw"]
+[ext_resource type="Texture2D" uid="uid://b7ulpnpbw4u2f" path="res://Assets_PixelAdventure/Traps/Spikes/Idle.png" id="1_bsppr"]
+[ext_resource type="AudioStream" uid="uid://bk01bmd5p2v58" path="res://Assets_PixelAdventure/Sounds/Hit.ogg" id="2_cxp4o"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5sfn3"]
+texture = ExtResource("1_bsppr")
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_cu1ct"]
+sources/0 = SubResource("TileSetAtlasSource_5sfn3")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2nbu6"]
+size = Vector2(29, 5)
+
+[node name="Pinchos" type="Area2D"]
+script = ExtResource("1_13msw")
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_cu1ct")
+format = 2
+layer_0/tile_data = PackedInt32Array(-65536, 0, 0, -1, 0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -2.5)
+shape = SubResource("RectangleShape2D_2nbu6")
+
+[node name="Hit" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_cxp4o")

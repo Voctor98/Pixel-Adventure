@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://c60r0v5bqscab"]
+
+[ext_resource type="Texture2D" uid="uid://cacr6yqm0eavi" path="res://background.png" id="1_tvbrr"]
+[ext_resource type="Script" path="res://Player/menu_principal.gd" id="2_7bk65"]
+[ext_resource type="Script" path="res://Player/inicio.gd" id="3_1rgux"]
+[ext_resource type="Script" path="res://Player/salir.gd" id="4_t1fuc"]
+
+[node name="Background" type="Sprite2D"]
+position = Vector2(215, 121)
+scale = Vector2(0.111458, 0.113889)
+texture = ExtResource("1_tvbrr")
+script = ExtResource("2_7bk65")
+
+[node name="tittle" type="Label" parent="."]
+offset_left = -1282.99
+offset_top = -1036.1
+offset_right = 1347.01
+offset_bottom = -627.098
+theme_override_font_sizes/font_size = 300
+text = "PIXEL ADVENTURE"
+
+[node name="autor" type="Label" parent="."]
+offset_left = 968.972
+offset_top = 904.39
+offset_right = 1893.97
+offset_bottom = 1041.39
+theme_override_font_sizes/font_size = 100
+text = "By. Víctor Mendoza"
+
+[node name="INICIO" type="Button" parent="."]
+offset_left = -1058.69
+offset_top = -228.293
+offset_right = -270.692
+offset_bottom = 121.707
+theme_override_font_sizes/font_size = 250
+text = "INICIO"
+script = ExtResource("3_1rgux")
+
+[node name="SALIR" type="Button" parent="."]
+offset_left = 385.794
+offset_top = -228.293
+offset_right = 1067.79
+offset_bottom = 121.707
+theme_override_font_sizes/font_size = 250
+text = "SALIR"
+script = ExtResource("4_t1fuc")
