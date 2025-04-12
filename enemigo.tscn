@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://ymslvtqhgcea"]
 
-[ext_resource type="Script" path="res://enemigo.gd" id="1_41w0u"]
+[ext_resource type="Script" uid="uid://dpgaayrbh1nlk" path="res://enemigo.gd" id="1_41w0u"]
 [ext_resource type="Texture2D" uid="uid://cdrkx8qn6n76l" path="res://Assets_PixelAdventure/Main Characters/Ninja Frog.png" id="1_pfudd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_80qfo"]
@@ -57,9 +57,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2tbt6"]
 _data = {
-"RESET": SubResource("Animation_tnv66"),
-"caminar_enemigo": SubResource("Animation_m84i7"),
-"enemigo_animation": SubResource("Animation_wg0ol")
+&"RESET": SubResource("Animation_tnv66"),
+&"caminar_enemigo": SubResource("Animation_m84i7"),
+&"enemigo_animation": SubResource("Animation_wg0ol")
 }
 
 [node name="Enemigo" type="CharacterBody2D"]

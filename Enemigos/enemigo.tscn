@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://c7hny7imrrhad"]
 
-[ext_resource type="Script" path="res://Enemigos/enemigo.gd" id="1_5mxil"]
+[ext_resource type="Script" uid="uid://pl2bs418ntam" path="res://Enemigos/enemigo.gd" id="1_5mxil"]
 [ext_resource type="Texture2D" uid="uid://bvkajrdp7d7s7" path="res://Assets_PixelAdventure/Main Characters/Pink Man.png" id="2_52kf8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uqcc3"]
@@ -57,9 +57,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_4sapi"]
 _data = {
-"RESET": SubResource("Animation_g3f6a"),
-"stay": SubResource("Animation_r04wg"),
-"walk": SubResource("Animation_fv7fe")
+&"RESET": SubResource("Animation_g3f6a"),
+&"stay": SubResource("Animation_r04wg"),
+&"walk": SubResource("Animation_fv7fe")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l4dva"]

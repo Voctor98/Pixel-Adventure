@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://c60r0v5bqscab"]
 
 [ext_resource type="Texture2D" uid="uid://cacr6yqm0eavi" path="res://background.png" id="1_tvbrr"]
-[ext_resource type="Script" path="res://Player/menu_principal.gd" id="2_7bk65"]
-[ext_resource type="Script" path="res://Player/inicio.gd" id="3_1rgux"]
-[ext_resource type="Script" path="res://Player/salir.gd" id="4_t1fuc"]
+[ext_resource type="Script" uid="uid://ccayhj3s27yr7" path="res://Player/menu_principal.gd" id="2_7bk65"]
+[ext_resource type="Script" uid="uid://blayhqooniurt" path="res://Player/inicio.gd" id="3_1rgux"]
+[ext_resource type="Script" uid="uid://bdrblvbofssqf" path="res://Player/salir.gd" id="4_t1fuc"]
 
 [node name="Background" type="Sprite2D"]
 position = Vector2(215, 121)

@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cqgs3aseyvj8m" path="res://Assets_PixelAdventure/Parallax/parallax-02.png" id="5_uawoy"]
 [ext_resource type="Texture2D" uid="uid://cvngflsps17db" path="res://Assets_PixelAdventure/Parallax/parallax-03.png" id="6_5pv0p"]
 [ext_resource type="Texture2D" uid="uid://owlwdggvbxt3" path="res://Assets_PixelAdventure/Parallax/parallax-04.png" id="7_rqfxx"]
-[ext_resource type="Script" path="res://Player/zona_Muerte.gd" id="8_4x5oy"]
+[ext_resource type="Script" uid="uid://ds1at22v4f1od" path="res://Player/zona_Muerte.gd" id="8_4x5oy"]
 [ext_resource type="PackedScene" uid="uid://bmvyruivge5wk" path="res://Coleccionables/cereza.tscn" id="8_yxf8e"]
 [ext_resource type="PackedScene" uid="uid://dxo3l300pbnkt" path="res://pinchos.tscn" id="10_tsah7"]
 [ext_resource type="AudioStream" uid="uid://bl2ygfjn5hh7g" path="res://Assets_PixelAdventure/Sounds/musicaFondo.ogg" id="11_g56e0"]
@@ -707,9 +707,6 @@ position = Vector2(6285, 114)
 [node name="Pinchos16" parent="." instance=ExtResource("10_tsah7")]
 position = Vector2(6789, 112)
 
-[node name="Pinchos17" parent="." instance=ExtResource("10_tsah7")]
-position = Vector2(9212, 47)
-
 [node name="Pinchos18" parent="." instance=ExtResource("10_tsah7")]
 position = Vector2(9554, 48)
 
@@ -848,8 +845,6 @@ position = Vector2(21530, 95)
 [connection signal="body_entered" from="Pinchos14" to="Player" method="_on_pinchos_body_entered"]
 [connection signal="area_entered" from="Pinchos16" to="Player" method="_on_pinchos_area_entered"]
 [connection signal="body_entered" from="Pinchos16" to="Player" method="_on_pinchos_body_entered"]
-[connection signal="area_entered" from="Pinchos17" to="Player" method="_on_pinchos_area_entered"]
-[connection signal="body_entered" from="Pinchos17" to="Player" method="_on_pinchos_body_entered"]
 [connection signal="area_entered" from="Pinchos18" to="Player" method="_on_pinchos_area_entered"]
 [connection signal="body_entered" from="Pinchos18" to="Player" method="_on_pinchos_body_entered"]
 [connection signal="area_entered" from="Pinchos20" to="Player" method="_on_pinchos_area_entered"]

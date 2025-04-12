@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://bmvyruivge5wk"]
 
-[ext_resource type="Script" path="res://Coleccionables/cereza.gd" id="1_hey3d"]
+[ext_resource type="Script" uid="uid://bdmtuq6y2wtvx" path="res://Coleccionables/cereza.gd" id="1_hey3d"]
 [ext_resource type="Texture2D" uid="uid://1j6n8l8n12s4" path="res://Assets_PixelAdventure/Items/Fruits/Bananas.png" id="2_x57q0"]
 
 [sub_resource type="Animation" id="Animation_jwv4i"]
@@ -38,8 +38,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_n2su1"]
 _data = {
-"RESET": SubResource("Animation_jwv4i"),
-"cereza_animation": SubResource("Animation_lp2wf")
+&"RESET": SubResource("Animation_jwv4i"),
+&"cereza_animation": SubResource("Animation_lp2wf")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0wnbr"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://dxo3l300pbnkt"]
 
-[ext_resource type="Script" path="res://pinchos.gd" id="1_13msw"]
+[ext_resource type="Script" uid="uid://byx8yxnboh0hi" path="res://pinchos.gd" id="1_13msw"]
 [ext_resource type="Texture2D" uid="uid://b7ulpnpbw4u2f" path="res://Assets_PixelAdventure/Traps/Spikes/Idle.png" id="1_bsppr"]
 [ext_resource type="AudioStream" uid="uid://bk01bmd5p2v58" path="res://Assets_PixelAdventure/Sounds/Hit.ogg" id="2_cxp4o"]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=14 format=3 uid="uid://dnyh0rwi6kvwk"]
 
-[ext_resource type="Script" path="res://Player/player.gd" id="1_nu1vp"]
+[ext_resource type="Script" uid="uid://da8hxs34bwn1r" path="res://Player/player.gd" id="1_nu1vp"]
 [ext_resource type="Texture2D" uid="uid://b0fkypq6l6nb1" path="res://Assets_PixelAdventure/Main Characters/Virtual Guy.png" id="2_hs1g3"]
-[ext_resource type="Script" path="res://Player/camera_2d.gd" id="3_lvi22"]
+[ext_resource type="Script" uid="uid://c2nbq3fmyowka" path="res://Player/camera_2d.gd" id="3_lvi22"]
 [ext_resource type="AudioStream" uid="uid://ba2hxqf376lg" path="res://Assets_PixelAdventure/Sounds/Jump.ogg" id="4_w1rf7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gtlbg"]
@@ -91,11 +91,11 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_gc7k2"]
 _data = {
-"RESET": SubResource("Animation_8vsfs"),
-"fall": SubResource("Animation_khawk"),
-"idle": SubResource("Animation_xnkk2"),
-"jump": SubResource("Animation_5kd7j"),
-"walk": SubResource("Animation_e1otp")
+&"RESET": SubResource("Animation_8vsfs"),
+&"fall": SubResource("Animation_khawk"),
+&"idle": SubResource("Animation_xnkk2"),
+&"jump": SubResource("Animation_5kd7j"),
+&"walk": SubResource("Animation_e1otp")
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_24o7t"]
